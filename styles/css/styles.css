@@ -2,6 +2,9 @@
 @font-face {
   font-family: primary;
   src: url(AppleSDGothicNeo.ttc); }
+@font-face {
+  font-family: secondary;
+  src: url(Anivers_Regular.otf); }
 h1, h2, h3, h4, h5, h6 {
   font-family: primary, sans-serif; }
 
@@ -46,7 +49,7 @@ footer {
   position: relative; }
 
 .asterik {
-  font-family: 'Anivers', sans-serif;
+  font-family: secondary, sans-serif;
   font-size: 78pt;
   font-weight: bold;
   text-align: center;
