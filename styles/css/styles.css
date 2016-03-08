@@ -1,9 +1,12 @@
 /* ------BEGIN MOBILE CSS-------*/
+@font-face {
+  font-family: primary;
+  src: url(AppleSDGothicNeo.ttc); }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Apple SD Gothic Neo', sans-serif; }
+  font-family: primary, sans-serif; }
 
 p, ul, ol, li, span, a, legend {
-  font-family: 'Apple SD Gothic Neo', sans-serif;
+  font-family: primary, sans-serif;
   font-size: 15pt;
   font-weight: 200;
   line-height: 18pt;
