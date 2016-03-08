@@ -1,0 +1,260 @@
+/* ------BEGIN MOBILE CSS-------*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Apple SD Gothic Neo', sans-serif; }
+
+p, ul, ol, li, span, a, legend {
+  font-family: 'Apple SD Gothic Neo', sans-serif;
+  font-size: 15pt;
+  font-weight: 200;
+  line-height: 18pt;
+  color: inherit; }
+
+h2 {
+  font-size: 28pt;
+  font-weight: 900;
+  line-height: 32pt; }
+
+p {
+  margin-top: 20px; }
+
+p:first-child {
+  margin-top: 0px; }
+
+footer {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: inline-block; }
+  footer span {
+    font-size: 10pt;
+    bottom: -20px;
+    position: relative; }
+
+#url-name {
+  margin: 0 auto;
+  margin-right: 10px;
+  width: 40%;
+  text-align: right; }
+
+#developer {
+  width: 41%;
+  border-left: 1px solid #55c4ff;
+  padding: 0 0 20px 10px;
+  position: relative; }
+
+.asterik {
+  font-family: 'Anivers', sans-serif;
+  font-size: 78pt;
+  font-weight: bold;
+  text-align: center;
+  content: '*'; }
+
+.moving-ast {
+  position: absolute;
+  left: 50px;
+  top: 50px; }
+
+.jolly {
+  position: relative;
+  left: 5%;
+  margin-top: 350px; }
+
+#intro1 {
+  margin-top: 180px;
+  position: relative;
+  max-width: 400px; }
+
+#intro2 {
+  margin-top: 180px;
+  position: relative;
+  max-width: 400px;
+  display: none; }
+
+.intro-line {
+  background: #ebebeb;
+  height: 2pt;
+  width: 105%;
+  right: 20px;
+  top: 10px;
+  position: relative; }
+
+#intro-button {
+  top: 30px;
+  cursor: pointer;
+  position: relative;
+  max-width: 240px;
+  background: #f2f2f2;
+  border-top: 3px solid #55c4ff;
+  padding: 5px 45px;
+  font-weight: 800;
+  color: #bfbfbf; }
+
+#intro-continue {
+  text-align: right;
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  font-weight: 300;
+  color: #bfbfbf; }
+
+#head-start {
+  text-align: center;
+  max-width: 900px;
+  width: 85%;
+  padding-top: 100px;
+  margin: 0 auto;
+  position: relative; }
+
+#head-end {
+  text-align: center;
+  max-width: 700px;
+  width: 85%;
+  margin: 0 auto;
+  top: 50px;
+  position: relative; }
+
+#nav {
+  margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+  left: 3.78%;
+  text-align: center;
+  z-index: 10; }
+  #nav li {
+    display: inline-flex;
+    cursor: pointer;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px 4%;
+    border-bottom: 2px solid #55c4ff; }
+  #nav li:hover {
+    color: #bfbfbf;
+    border-bottom: 2px solid #a1dfff; }
+
+#arrow-line {
+  background-color: #ebebeb;
+  width: 100%;
+  height: 4px;
+  position: relative;
+  margin-top: 240px; }
+
+#arrow {
+  background: url("../../images/arrow.png") no-repeat 50% 0;
+  height: 50px;
+  margin-top: -39px;
+  cursor: pointer;
+  position: relative; }
+
+#description {
+  width: 91.58%;
+  max-width: 770px;
+  padding-top: 150px;
+  margin: 0 auto;
+  position: relative; }
+
+aside {
+  margin: 0 auto;
+  margin-top: 200px;
+  width: 90%; }
+  aside h2 {
+    width: 100%;
+    max-width: 500px;
+    border-bottom: 2px solid #ebebeb;
+    padding: 0px 0px 5px 20%;
+    right: 20%;
+    position: relative; }
+
+.title {
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 1%; }
+  .title .D-example {
+    background: #ebebeb;
+    width: 100%;
+    height: 80px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20px; }
+
+.ux-intro {
+  background: url(../../images/ux-design_intro.png) no-repeat;
+  width: 93%;
+  height: 300px;
+  margin-top: 40px; }
+
+.ui-intro {
+  background: url(../../images/ui-design_intro.png) no-repeat;
+  width: 93%;
+  height: 300px;
+  margin-top: 40px; }
+
+#resources {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 100px;
+  left: 15px; }
+  #resources a {
+    display: inline-block;
+    border: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+    margin: 10px 20px;
+    font-size: 13pt;
+    transition: .25s; }
+  #resources a:hover {
+    border: 1px solid #55c4ff;
+    transition: .25s; }
+
+@media (min-width: 500px) {
+  #intro {
+    margin-top: 180px; }
+
+  .intro-line {
+    right: 78px;
+    width: 120%; }
+
+  .asterik {
+    font-size: 86pt; } }
+@media (min-width: 640px) {
+  .moving-ast {
+    left: 70%;
+    top: 200px; }
+
+  .arrow-box {
+    left: -3.78%; }
+
+  #resources {
+    left: 7.56%; }
+
+  .jolly {
+    top: 0px;
+    position: relative; }
+
+  #arrow-line {
+    margin-top: 120px; }
+
+  .description {
+    width: 83.16%; }
+
+  .ux-intro {
+    margin-top: 215px;
+    left: 150px;
+    position: relative; }
+
+  .ui-intro {
+    margin-top: 215px;
+    left: 200px;
+    position: relative; }
+
+  #url-name {
+    margin-right: 0px; } }
+@media (min-width: 985px) {
+  h2 {
+    font-size: 32pt; }
+
+  .ui-intro {
+    left: 250px; }
+
+  #intro {
+    max-width: 410px; } }

@@ -1,0 +1,81 @@
+
+
+/*----------End Added CSS---------*/
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0px;
+  box-sizing: border-box; }
+
+.column,
+.columns {
+   left: 25px;
+   position: relative;
+   width: 90%;
+   float: left;
+   box-sizing: border-box; }
+
+
+/*------------End Grid of Mobile------------*/
+
+
+/*------------Start Grid of Desktop------------*/
+
+@media (min-width: 640px) {
+
+   .container {
+     position: relative;
+     max-width: 1040px; /* max width of content */
+     width: 100%;
+     margin: 0 auto;
+     padding: 0 0px;
+     box-sizing: border-box; }
+
+   .column,
+   .columns {
+      left: 7.56%;
+      margin-left: 1%; /* column gutter */
+      float: left;
+       box-sizing: border-box;
+     }
+
+   .column:first-child,
+   .columns:first-child {
+     margin-left: 0; } /* prevents first column from acquiring a gutter on its left: typography 101 */
+
+   .one.column,
+   .one.columns                    { width: 7.416%; }
+   .two.columns                    { width: 15.83%; }
+   .three.columns                  { width: 24.25%;            }
+   .four.columns                   { width: 32.66%; }
+   .five.columns                   { width: 41.08%; }
+   .six.columns                    { width: 49.5%;            }
+   .seven.columns                  { width: 57.91%; }
+   .eight.columns                  { width: 66.33%; }
+   .nine.columns                   { width: 74.75%;          }
+   .ten.columns                    { width: 83.16%; }
+   .eleven.columns                 { width: 91.58%; }
+   .twelve.columns                 { width: 100%; margin-left: 0; }
+
+   .one-third.column               { width: 32.66%; }
+   .two-thirds.column              { width: 66.33%; }
+
+   .one-half.column                { width: 49.5%; }
+
+
+   /* ----------------- End Grid for desktop screens ----------------- */
+
+   /* ----------------- Misc Grid Commands ----------------- */
+
+   /* Self Clearing Goodness: Fixes Issues with Rows Overlapping due to flow: left; */
+   .container:after,
+   .row:after,
+   .u-cf {
+   content: "";
+   display: table;
+   clear: both; }
+
+}
